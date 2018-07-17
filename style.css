@@ -1,1 +1,142 @@
-t
+body{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK89BxvjI5X4Y7WDyDToBf7mPHOCI3lfCYjz5IKzCWzgpWkM3-");
+
+           background-size: cover;
+           height: 100%;
+ }
+.container{
+   width: 200px;
+   height: 200px;
+  
+}
+#num1{
+   background:green;
+   border-top-left-radius: 300px;
+   margin-bottom: 50px;
+}
+#num2{
+   background:red;
+   border-top-right-radius: 300px;
+   margin-bottom: 50px;
+}
+#num3{
+   background:blue;
+   border-bottom-right-radius: 300px;
+}
+#num4{
+   background:yellow;
+   border-bottom-left-radius: 300px;
+   
+}
+#hiper-container{
+   height: 600px;
+   width: 600px;
+   background: black;
+   padding-top: 75px;
+   padding-left: 80px;
+   box-shadow: 10px 10px rgba(10, 0, 0, 0.493);
+   border-bottom-left-radius: 300px;
+   border-bottom-right-radius: 300px;
+   border-top-right-radius: 300px;
+   border-top-left-radius: 300px;
+  
+   margin-left: 30%;
+   margin-top: 50px;
+}
+   #center{
+   height: 250px;
+   width: 250px;
+   background: rgb(146, 140, 140);
+   border-bottom-left-radius: 300px;
+   border-bottom-right-radius: 300px;
+   border-top-right-radius: 300px;
+   border-top-left-radius: 300px;
+   
+   position: fixed;
+   z-index: 1;
+   bottom: 515px;
+   left:720px;
+   border: 10px solid;
+   border-color: black;
+   }
+   #container-start{
+       background: black;
+       height: 22px;
+       width: 70px;
+       position: fixed;
+       bottom: 555px;
+       left:810px;
+
+   }
+   #on{
+       background: black;
+       height: 20px;
+       width: 33px;
+       margin-right: 0px;
+       font-size: 9px;
+       font:bold;
+       
+   }
+   #off{
+       background: blue;
+       font-size: 9px;
+       height: 20px;
+       width: 33px;
+       font:bold;
+       text-align: center;
+       margin-left: 0px;
+      
+       
+   }
+   #on-off{
+       background:rgb(146, 140, 140);
+       height: 22px;
+       width: 70px;
+       position: fixed;
+       bottom: 575px;
+       left:812px;
+       color:red;
+       text-align:  center;
+   }
+   .name{
+       font:bold;
+       text-align: center;
+       margin-top: 20px;
+       color:black;
+       font-size: 20px;
+   }
+   .rounded{
+       border-radius: 50%;
+       height: 20px;
+       width: 20px;
+       border: 1px solid;
+       
+   }
+   #start{
+       background: rgb(145, 48, 48);
+       margin-left: 35%;
+       margin-top: 20px;
+   }
+   #strike{
+       background: rgb(30, 26, 75);
+       margin-left: 10%;
+       margin-top: 20px;
+   }
+   .btns{
+       color:black;
+       font-size:15px;
+       margin-left: 60px;
+       padding-right: 30px;
+   }
+   .board-text{
+       width: 120px;
+       height: 30px;
+       background: rgba(109, 22, 22, 0.774);
+       margin-top: 0px;
+       margin-left: 50px;
+       text-align: center;
+       font: bold;
+       font-family: Orbitron;
+       font-size: 20px;
+       color:red;
+   }
